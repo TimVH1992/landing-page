@@ -15,7 +15,7 @@ li{
     font-size: 18px;
     color: #E5E7EB;
 }
-h1 {
+.header h1 {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
@@ -44,6 +44,9 @@ body {
     display: flex;
     flex-direction: column;
 }
+.header {
+    height: 380px;
+}
 .header-top,
 .header-bottom{
     background-color: #1F2937;
@@ -67,4 +70,31 @@ nav li {
     color: #E5E7eb;
 }
 
-
+/* styling for the main content */
+.one {
+    background-color: white;
+}
+.one h1,
+.one p,
+.one img {
+    color: black;
+}
+.main-content {
+    height: 300px;
+}
+.one h1 {
+    text-align: center;
+    margin: 20px;
+    outline: 1px solid lime;
+}
+.cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-grow: 1;
+    height: 200px;
+    outline: 1px solid lime;
+}
+.card {
+    width: 20%;
+}
