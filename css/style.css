@@ -34,6 +34,8 @@ h3 {
 }
 /*Main page layout settings*/
 body {
+    width: 1200px;
+    margin: auto;
     background-color: black;
     display: flex;
     flex-direction: column;
