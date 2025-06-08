@@ -10,10 +10,27 @@ img{
 }
 li{
     list-style-type: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+h3 {
+    font-size: 24px;
+    color: #F9FAF8;
 }
 .header button {
     background-color: #3882F6;
     padding: 8px;
+}
+.header-image {
+    
+}
+#header-image {
+    width: 300px;
 }
 /*Main page layout settings*/
 body {
@@ -26,8 +43,13 @@ body {
 .header-bottom{
     background-color: #1F2937;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 10px 150px;
+    padding-bottom: 80px;
     flex-grow: 1;
     flex-shrink: 0;
     flex-basis: 100px;
+    gap: 20px;
 }
+
+
