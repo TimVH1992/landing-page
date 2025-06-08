@@ -53,5 +53,14 @@ body {
     flex-basis: 100px;
     gap: 20px;
 }
+.header-top nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+nav li {
+    font-size: 18px;
+    color: #E5E7eb;
+}
 
 
