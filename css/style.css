@@ -1,0 +1,17 @@
+/*Basic settings*/
+* {
+    margin: 0;
+    padding: 0;
+}
+img{
+    height: 150px;
+    width: auto;
+}
+li{
+    list-style-type: none;
+}
+/*Main page layout settings*/
+body {
+    display: flex;
+    flex-direction: column;
+}
