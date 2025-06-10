@@ -155,3 +155,11 @@ nav li {
     background-color: #3882F6;
     align-self: center;
 }
+
+.footer {
+    background-color: #1F2937;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
