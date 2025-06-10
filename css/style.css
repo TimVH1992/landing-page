@@ -38,7 +38,7 @@ h3 {
 }
 /*Main page layout settings*/
 body {
-    width: 1200px;
+    width: 90%;
     margin: auto;
     background-color: black;
     display: flex;
@@ -92,7 +92,8 @@ nav li {
     gap: 30px;
     align-items: center;
     flex-grow: 1;
-    height: 200px;
+    flex-shrink: 1;
+    flex-wrap: wrap;
 
 }
 .card img {
@@ -123,4 +124,34 @@ nav li {
     width: 800px;
     color: black;
     justify-content: flex-end;
+}
+/*Sing up class*/
+.sign-up {
+    height: 300px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flexbox {
+    width: 70%;
+    height: 130px;
+    background-color: #3882F6;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.columnbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.flexbox > button {
+    width: 100px;
+    height: 25px;
+    outline: white 2px solid;
+    border: none;
+    border-radius: 5px;
+    background-color: #3882F6;
+    align-self: center;
 }
