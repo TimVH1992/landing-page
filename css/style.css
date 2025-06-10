@@ -70,7 +70,7 @@ nav li {
     color: #E5E7eb;
 }
 
-/* styling for the main content */
+/* styling for main content one*/
 .one {
     background-color: white;
 }
@@ -85,7 +85,6 @@ nav li {
 .one h1 {
     text-align: center;
     margin: 20px;
-    outline: 1px solid lime;
 }
 .cards {
     display: flex;
@@ -94,12 +93,34 @@ nav li {
     align-items: center;
     flex-grow: 1;
     height: 200px;
-    outline: 1px solid lime;
+
 }
-.card {
-    width: 10%;
-    height: 120px;
+.card img {
     border: 3px #3882F6 solid;
     border-radius: 10%;
+}
 
+/*Styling for main content two*/
+.two {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+
+}
+.two > p,
+.two > h6 {
+    color: rgb(121, 118, 118);
+}
+.two > p {
+    width: 800px;
+}
+.two > h6 {
+    display: flex;
+    width: 800px;
+    color: black;
+    justify-content: flex-end;
 }
